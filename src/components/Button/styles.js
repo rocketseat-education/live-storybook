@@ -47,6 +47,10 @@ export const Container = styled.button`
           }
         `}
 
+  > span + svg {
+    margin-right: 0.8rem;
+  }
+
   :disabled {
     opacity: 0.5;
     cursor: not-allowed;

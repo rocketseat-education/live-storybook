@@ -85,10 +85,6 @@ export const RightContainer = styled.main`
       button {
         margin: 0 0.8rem;
 
-        > span + svg {
-          margin-right: 0.8rem;
-        }
-
         :first-child {
           flex: 1;
           margin-left: 0;
